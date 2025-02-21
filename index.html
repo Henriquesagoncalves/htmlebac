@@ -1,23 +1,201 @@
 <!DOCTYPE html>
-<html lang="pt=br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de Cadastro</title>
+    <title>Meu portal de notícias</title>
+    <link rel="stylesheet" href="./main.css" />
 </head>
 <body>
-    <h1>Formulário de Cadastro:</h1>
-    <form>
-        <label for="nome">Seu nome:</label>
-        <input id="nome" type="text"/>
-        <br>
-        <label for="email">Seu e-mail:</label>
-        <input id="email" type="email"/>
-        <br>
-        <label for="senha">Sua senha:</label>
-        <input id="senha" type="password"/>
-        <br>
-        <button type="submit">Enviar</button>
-    </form>
+    <header>
+        <div class = "container">
+            <h1>Meu portal de notícias</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
+                    </li>
+                    <li>
+                        <a href="#economy" title="Ir para a seção de notícias">Economia</a>
+                    </li>
+                    <li>
+                        <a href="#car" title="Ir para a seção de carros">Carros</a>
+                    </li>
+                    <li>
+                        <a href="#tecnology" title="Ir para a seção de tecnologias">Tecnologia</a>
+                    </li>
+                </ul>
+            </nav></div>
+    </header>
+    <section id="sports">
+        <div class="container">        
+            <h2>Esportes</h2>
+                <div class="articles">
+                    <article>
+                        <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
+                        <header>
+                            <time class="creationdate">13/07/2022 às 12:35</time>
+                        </header>
+                        <h3>Grande clássico na noite de hoje</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                        </p>
+                        <a href="#" title="Leia a notícia completa">Ler mais</a>
+                    </article>
+                    <article>
+                        <img src="./imagens/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
+                        <header>
+                            <time>13/07/2022 às 12:35</time>
+                        </header>
+                        <h3>Noite do Superbowl</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                        </p>
+                        <a href="#" title="Leia a notícia completa">Ler mais</a>
+                    </article>
+                    <article>
+                        <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                        <header>
+                            <time>13/07/2022 às 12:35</time>
+                        </header>
+                        <h3>Notícia sobre a NBA</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                        </p>
+                        <a href="#" title="Leia a notícia completa">Ler mais</a>
+                    </article>
+        </div>
+                </div>
+            </section>
+            <section id="economy">
+                <div class="container">
+                    <h2>Economia</h2>
+                        <div class="articles">
+                    <article>
+                        <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
+                        <header>
+                            <time>13/07/2022 às 12:35</time>
+                        </header>
+                        <h3>Dólar em alta de 0.50%</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                        </p>
+                        <a href="#" title="Leia a notícia completa">Ler mais</a>
+                    </article>
+                    <article>
+                        <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
+                        <header>
+                            <time>13/07/2022 às 12:35</time>
+                        </header>
+                        <h3>Euro em queda de 0.40%</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                        </p>
+                        <a href="#" title="Leia a notícia completa">Ler mais</a>
+                    </article>
+                    <article>
+                        <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
+                        <header>
+                            <time>13/07/2022 às 12:35</time>
+                        </header>
+                        <h3>Alta no preço do barril do petróleo</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                        </p>
+                        <a href="#" title="Leia a notícia completa">Ler mais</a>
+                    </article> 
+                </div>
+                    </div>
+    </section>
+
+
+
+
+    <section id="car">
+        <div class="container">        
+            <h2>Carros</h2>
+                <div class="articles">
+                    <article>
+                        <img src="./imagens/carro1.jpg" alt="Bola de futebol no gramado" />
+                        <header>
+                            <time class="creationdate">13/07/2022 às 12:35</time>
+                        </header>
+                        <h3>Carros classicos 2010</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                        </p>
+                        <a href="#" title="Leia a notícia completa">Ler mais</a>
+                    </article>
+                    <article>
+                        <img src="./imagens/carro2.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
+                        <header>
+                            <time>13/07/2022 às 12:35</time>
+                        </header>
+                        <h3>Noite dos Super Carros</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                        </p>
+                        <a href="#" title="Leia a notícia completa">Ler mais</a>
+                    </article>
+                    <article>
+                        <img src="./imagens/carro3.jpg" title="Vista aérea de uma quadra de basquete" />
+                        <header>
+                            <time>13/07/2022 às 12:35</time>
+                        </header>
+                        <h3>Notícia sobre o IPVA</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                        </p>
+                        <a href="#" title="Leia a notícia completa">Ler mais</a>
+                    </article>
+        </div>
+                </div>
+            </section>
+
+
+
+
+
+            <section id="tecnology">
+                <div class="container">        
+                    <h2>Tecnologia</h2>
+                        <div class="articles">
+                            <article>
+                                <img src="./imagens/tecnologia4.jpg" alt="Bola de futebol no gramado" />
+                                <header>
+                                    <time class="creationdate">13/07/2022 às 12:35</time>
+                                </header>
+                                <h3>Tudo sobre novas tecnologias</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                                </p>
+                                <a href="#" title="Leia a notícia completa">Ler mais</a>
+                            </article>
+                            <article>
+                                <img src="./imagens/tecnologia2.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
+                                <header>
+                                    <time>13/07/2022 às 12:35</time>
+                                </header>
+                                <h3>Noite da tecnologia</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                                </p>
+                                <a href="#" title="Leia a notícia completa">Ler mais</a>
+                            </article>
+                            <article>
+                                <img src="./imagens/tecnologia3.jpg" title="Vista aérea de uma quadra de basquete" />
+                                <header>
+                                    <time>13/07/2022 às 12:35</time>
+                                </header>
+                                <h3>Tendencias tecnológicas</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                                </p>
+                                <a href="#" title="Leia a notícia completa">Ler mais</a>
+                            </article>
+                </div>
+                        </div>
+                    </section>
 </body>
 </html>
